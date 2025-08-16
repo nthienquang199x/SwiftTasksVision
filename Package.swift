@@ -22,7 +22,6 @@ let package = Package(
             name: "SwiftTasksVision",
             dependencies: ["MediaPipeCommonGraphLibraries", "MediaPipeTasksVision"],
             linkerSettings: [
-                .unsafeFlags(["-ObjC"])
             ]
         ),
         .binaryTarget(
